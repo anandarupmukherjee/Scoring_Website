@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            Score_scrape
+        </title>
+
+<style>
+        .rotate_image {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+  
+        h1 {
+            color: green;
+        }
+    </style>
+    </head>
+
+    <body style="margin-top: 30px;margin-left: 30px;">
+        <center>
+
+        <h1>Summary of Votes</h1> 
+        <p><a href="{% url 'home' %}">Home</a></p> 
+        <img src="media/votes.png" style="width: 30%;" class="rotate_image">
+    </body>
+</html>
